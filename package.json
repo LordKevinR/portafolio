@@ -1,7 +1,7 @@
 {
   "name": "pruebaaws",
   "private": true,
-  "homepage": "https://LordKevinR.github.io/portafolio/build",
+  "homepage": "https://LordKevinR.github.io/portafolio/dist",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
