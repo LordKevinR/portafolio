@@ -53,15 +53,15 @@ const Header = () => {
           </h1>
 
           <div className="mt-16 md:mt-0">
-            <div className="hidden md:flex justify-center lg:justify-start">
+            <div className="flex justify-center lg:justify-start">
               <TypewriterEffectSmooth words={words} />
             </div>
-            <div className="flex md:hidden">
+            {/* <div className="flex md:hidden">
               <p className=" mt-5 font-black text-2xl pb-5  text-center lg:text-start text-slate-300 animate__animated animate__slideInDown">
                 <span className="text-indigo-400">.NET Fullstack & Movile</span>{" "}
                 Developer
               </p>
-            </div>
+            </div> */}
           </div>
 
           <div className="w-full place-items-center animate__animated animate__fadeInDown animate__delay-2s">

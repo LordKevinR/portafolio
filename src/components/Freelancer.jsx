@@ -14,8 +14,8 @@ const Freelancer = () => {
         <div className="w-full lg:col-span-2">
           <BackgroundGradient className="bg-zinc-900">
             <Card
-              image1={"img/indicencias1.png"}
-              image2={"img/gradiente.png"}
+              image1={"img/indicencias1.webp"}
+              image2={"img/gradiente.webp"}
               title={"Manejo de Incidencias"}
               height={"h-[35rem]"}
               desc={`Proyecto que tuvo como objetivo administrar las incidencias
@@ -31,8 +31,8 @@ const Freelancer = () => {
         <div className="lg:flex lg:flex-col h-full gap-4 justify-between">
           <BackgroundGradient className="bg-zinc-900">
             <Card
-              image1={"img/incidencias.png"}
-              image2={"img/gradiente.png"}
+              image1={"img/incidencias.webp"}
+              image2={"img/gradiente.webp"}
               title={"Tecnologías utilizadas"}
               height={"h-[16.5rem]"}
               desc={".NET MAUI, ASP.NET, Entity Framework Core y SQL Server "}
@@ -42,8 +42,8 @@ const Freelancer = () => {
 
           <BackgroundGradient className="bg-zinc-900">
             <Card
-              image1={"img/incidencias.png"}
-              image2={"img/gradiente.png"}
+              image1={"img/incidencias.webp"}
+              image2={"img/gradiente.webp"}
               title={"Background Overlays"}
               height={"h-[17rem]"}
               desc={
@@ -59,8 +59,8 @@ const Freelancer = () => {
         <div className="lg:flex lg:flex-col h-full gap-4 justify-between">
           <BackgroundGradient className="bg-zinc-900">
             <Card
-              image1={"img/resonancia1.png"}
-              image2={"img/gradiente2.png"}
+              image1={"img/resonancia1.webp"}
+              image2={"img/gradiente2.webp"}
               title={"Tecnologías utilizadas"}
               height={"h-[16.5rem]"}
               desc={".NET MAUI, ASP.NET, Entity Framework Core y SQL Server "}
@@ -70,8 +70,8 @@ const Freelancer = () => {
 
           <BackgroundGradient className="bg-zinc-900">
             <Card
-              image1={"img/resonancia3.png"}
-              image2={"img/gradiente2.png"}
+              image1={"img/resonancia3.webp"}
+              image2={"img/gradiente2.webp"}
               title={"Background Overlays"}
               height={"h-[17rem]"}
               desc={
@@ -84,8 +84,8 @@ const Freelancer = () => {
         <div className="w-full lg:col-span-2">
           <BackgroundGradient className="bg-zinc-900">
             <Card
-              image1={"img/resonancia2.png"}
-              image2={"img/gradiente2.png"}
+              image1={"img/resonancia2.webp"}
+              image2={"img/gradiente2.webp"}
               title={"Manejo de Incidencias"}
               height={"h-[35rem]"}
               desc={`Proyecto que tuvo como objetivo administrar las incidencias
@@ -103,8 +103,8 @@ const Freelancer = () => {
         <div className="w-full lg:col-span-2">
           <BackgroundGradient className="bg-zinc-900">
             <Card
-              image1={"img/parqueos4.jpeg"}
-              image2={"img/gradiente3.png"}
+              image1={"img/parqueos4.webp"}
+              image2={"img/gradiente3.webp"}
               title={"Manejo de Incidencias"}
               height={"h-[35rem]"}
               desc={`Proyecto que tuvo como objetivo administrar las incidencias
@@ -120,8 +120,8 @@ const Freelancer = () => {
         <div className="lg:flex lg:flex-col h-full gap-4 justify-between">
           <BackgroundGradient className="bg-zinc-900">
             <Card
-              image1={"img/parqueos2.jpeg"}
-              image2={"img/gradiente3.png"}
+              image1={"img/parqueos2.webp"}
+              image2={"img/gradiente3.webp"}
               title={"Tecnologías utilizadas"}
               height={"h-[16.5rem]"}
               desc={".NET MAUI, ASP.NET, Entity Framework Core y SQL Server "}
@@ -131,8 +131,8 @@ const Freelancer = () => {
 
           <BackgroundGradient className="bg-zinc-900">
             <Card
-              image1={"img/parqueos1.jpeg"}
-              image2={"img/gradiente3.png"}
+              image1={"img/parqueos1.webp"}
+              image2={"img/gradiente3.webp"}
               title={"Background Overlays"}
               height={"h-[17rem]"}
               desc={
