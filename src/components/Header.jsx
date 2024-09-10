@@ -1,7 +1,31 @@
 import { Email } from "./logos/Email";
 import { Spotlight } from "../components/ui/Spotlight";
+import { TypewriterEffectSmooth } from "../components/ui/typewriter-effect";
 
 const Header = () => {
+  const words = [
+    {
+      text: ".NET",
+      className: "text-2xl text-indigo-400 dark:text-indigo-400 font-black",
+    },
+    {
+      text: "Fullstack",
+      className: "text-2xl text-indigo-400 dark:text-indigo-400 font-black",
+    },
+    {
+      text: "&",
+      className: "text-2xl text-indigo-400 dark:text-indigo-400 font-black",
+    },
+    {
+      text: "Mobile",
+      className: "text-2xl text-indigo-400 dark:text-indigo-400 font-black",
+    },
+    {
+      text: "Developer.",
+      className: "text-2xl text-slate-300 dark:text-slate-300 font-black",
+    },
+  ];
+
   return (
     <div id="header" className="max-w-[75rem] mx-auto">
       <Spotlight
@@ -24,16 +48,13 @@ const Header = () => {
         </div>
 
         <div className="flex flex-col">
-          <h1 className="font-black text-5xl text-center lg:text-start text-slate-300 animate__animated animate__fadeInRightBig ">
+          <h1 className="font-black text-5xl text-center lg:text-start text-slate-300 animate__animated animate__fadeInDown animate__delay-1s">
             Kevin Sánchez <span className="text-indigo-400 ">-</span> Portafolio
           </h1>
 
-          <p className=" mt-5 font-black text-2xl pb-5  text-center lg:text-start text-slate-300 animate__animated animate__slideInDown">
-            <span className="text-indigo-400">.NET Fullstack & Movile</span>{" "}
-            Developer
-          </p>
+          <TypewriterEffectSmooth words={words} />
 
-          <div className="w-full place-items-center">
+          <div className="w-full place-items-center animate__animated animate__fadeInDown animate__delay-2s">
             <p className="text-white  text-center lg:text-start font-bold text-xl">
               Transformo ideas en{" "}
               <span className="text-indigo-400">soluciones digitales.</span>
