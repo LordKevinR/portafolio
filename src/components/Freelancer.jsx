@@ -34,9 +34,9 @@ const Freelancer = () => {
             <Card
               image1={"img/incidencias.webp"}
               image2={"img/gradiente.webp"}
-              title={"Tecnologías utilizadas"}
+              title={"Tecnologías mobile utilizadas"}
               height={"mt-5 lg:mt-0 h-[16.5rem]"}
-              desc={".NET MAUI, ASP.NET, Entity Framework Core y SQL Server "}
+              desc={".NET MAUI,"}
               size={"max-w-xs"}
             />
           </Fade>
@@ -44,11 +44,9 @@ const Freelancer = () => {
             <Card
               image1={"img/incidencias.webp"}
               image2={"img/gradiente.webp"}
-              title={"Background Overlays"}
+              title={"Tecnologías backend utilizadas"}
               height={"mt-5 lg:mt-0 h-[17rem]"}
-              desc={
-                "This card is for some special elements, like displaying background gifs on hover only."
-              }
+              desc={"ASP.NET, Entity Framework Core y SQL Server"}
               size={"max-w-xs"}
             />
           </Fade>
@@ -61,9 +59,9 @@ const Freelancer = () => {
             <Card
               image1={"img/resonancia1.webp"}
               image2={"img/gradiente2.webp"}
-              title={"Tecnologías utilizadas"}
+              title={"Tecnologías frontend utilizadas"}
               height={"mt-5 lg:mt-0 h-[16.5rem]"}
-              desc={".NET MAUI, ASP.NET, Entity Framework Core y SQL Server "}
+              desc={"React, JSX, Vite, Tailwind"}
               size={"max-w-xs"}
             />
           </Fade>
@@ -71,11 +69,9 @@ const Freelancer = () => {
             <Card
               image1={"img/resonancia3.webp"}
               image2={"img/gradiente2.webp"}
-              title={"Background Overlays"}
+              title={"Tecnologías backend utilizadas"}
               height={"mt-5 lg:mt-0 h-[17rem]"}
-              desc={
-                "This card is for some special elements, like displaying background gifs on hover only."
-              }
+              desc={".NET con Entity Framework Core y SQL Server."}
               size={"max-w-xs"}
             />
           </Fade>
@@ -85,7 +81,7 @@ const Freelancer = () => {
             <Card
               image1={"img/resonancia2.webp"}
               image2={"img/gradiente2.webp"}
-              title={"Manejo de Incidencias"}
+              title={"Manejo de Turnos de Resonancia Magnética"}
               height={"mt-5 lg:mt-0 h-[35rem]"}
               desc={`Proyecto que tuvo como objetivo administrar las incidencias
                     del día a día en el departamento de mantenimiento del hospital
@@ -105,14 +101,14 @@ const Freelancer = () => {
             <Card
               image1={"img/parqueos4.webp"}
               image2={"img/gradiente3.webp"}
-              title={"Manejo de Incidencias"}
+              title={"Control de Acceso a Parqueos"}
               height={"mt-5 lg:mt-0 h-[35rem]"}
-              desc={`Proyecto que tuvo como objetivo administrar las incidencias
-                    del día a día en el departamento de mantenimiento del hospital
-                    donde trabajaba. La aplicación no busca sustituir el sistema
-                    interno de incidencias del hospital, sino complementarse con
-                    el personal y reemplazar los mensajes de WhatsApp, ya que a
-                    menudo se pierden en la comunicación diaria.`}
+              desc={`Este es un proyecto muy sencillo que realicé para un grupo de estudiantes 
+                universitarios que necesitaban un sistema que simulara la entrada y salida de 
+                un estacionamiento, restando los espacios disponibles por cada vehículo que entra 
+                y aumentando por cada vehículo que sale. El sistema debe mostrar en tiempo real los 
+                espacios de estacionamiento disponibles, actualizando la cantidad por cada entrada 
+                y salida de vehículos.`}
               size={"max-w-xs"}
             />
           </Fade>
@@ -122,9 +118,9 @@ const Freelancer = () => {
             <Card
               image1={"img/parqueos2.webp"}
               image2={"img/gradiente3.webp"}
-              title={"Tecnologías utilizadas"}
+              title={"Tecnologías frontend utilizadas"}
               height={"mt-5 lg:mt-0 h-[16.5rem]"}
-              desc={".NET MAUI, ASP.NET, Entity Framework Core y SQL Server "}
+              desc={"React, JSX, Vite, Tailwind"}
               size={"max-w-xs"}
             />
           </Fade>
@@ -133,11 +129,9 @@ const Freelancer = () => {
             <Card
               image1={"img/parqueos1.webp"}
               image2={"img/gradiente3.webp"}
-              title={"Background Overlays"}
+              title={"Tecnologías backend utilizadas"}
               height={"mt-5 lg:mt-0 h-[17rem]"}
-              desc={
-                "This card is for some special elements, like displaying background gifs on hover only."
-              }
+              desc={".NET con Entity Framework Core y SQL Server."}
               size={"max-w-xs"}
             />
           </Fade>

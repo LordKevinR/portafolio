@@ -6,23 +6,23 @@ const Header = () => {
   const words = [
     {
       text: ".NET",
-      className: "text-2xl text-indigo-400 dark:text-indigo-400 font-black",
+      className: "text-2xl text-indigo-400 font-black",
     },
     {
       text: "Fullstack",
-      className: "text-2xl text-indigo-400 dark:text-indigo-400 font-black",
+      className: "text-2xl text-indigo-400 font-black",
     },
     {
       text: "&",
-      className: "text-2xl text-indigo-400 dark:text-indigo-400 font-black",
+      className: "text-2xl text-indigo-400 font-black",
     },
     {
       text: "Mobile",
-      className: "text-2xl text-indigo-400 dark:text-indigo-400 font-black",
+      className: "text-2xl text-indigo-400 font-black",
     },
     {
       text: "Developer.",
-      className: "text-2xl text-slate-300 dark:text-slate-300 font-black",
+      className: "text-2xl text-slate-300 font-black",
     },
   ];
 
