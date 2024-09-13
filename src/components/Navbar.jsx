@@ -14,12 +14,23 @@ function Navbar() {
 
       <div className="md:flex grid gap-3 md:gap-6 ">
         <Link
-          to="proyectos"
+          to="experiencia"
           spy={true}
           smooth={true}
           offset={50}
           duration={500}
           className="font-bold cursor-pointer hover:transition-all transition-all text-2xl text-slate-300 hover:text-slate-50"
+        >
+          Experiencia
+        </Link>
+
+        <Link
+          to="proyectos"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          className="font-bold cursor-pointer hover:transition-all transition-all text-2xl text-indigo-400 hover:text-indigo-200"
         >
           Proyectos
         </Link>
@@ -30,14 +41,14 @@ function Navbar() {
           smooth={true}
           offset={50}
           duration={500}
-          className="font-bold cursor-pointer hover:transition-all text-2xl text-indigo-400 hover:text-indigo-200"
+          className="font-bold cursor-pointer hover:transition-all text-2xl text-slate-300 hover:text-slate-50"
         >
           Tecnologías
         </Link>
 
         {/* <a href="#sobremi" className="font-bold hover:transition-all text-2xl text-slate-300 hover:text-slate-50">Sobre Mi</a> */}
 
-        <Link
+        {/* <Link
           to="contacto"
           spy={true}
           smooth={true}
@@ -46,7 +57,7 @@ function Navbar() {
           className="font-bold cursor-pointer hover:transition-all text-2xl text-slate-300 hover:text-slate-50"
         >
           Contacto
-        </Link>
+        </Link> */}
       </div>
     </nav>
   );
