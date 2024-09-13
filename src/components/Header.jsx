@@ -41,7 +41,7 @@ const Header = () => {
           <div className="border md:w-[15rem] md:h-[15rem] w-[10rem] h-[10rem] mb-5 lg:mb-0 mx-auto lg:mx-0 rounded-full flex justify-center items-center overflow-hidden">
             <img
               className="w-full h-full object-cover"
-              src="img/Fotomia.png"
+              src="img/Fotomia.webp"
               alt="imagen mia"
             />
           </div>

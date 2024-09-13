@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import Tecnologias from "./components/Tecnologias";
+import Tecnologias2 from "./components/Tecnologias2";
 import Freelancer from "./components/Freelancer";
 import Navbar from "./components/Navbar";
 import Headroom from "react-headroom";
@@ -17,7 +18,8 @@ function App() {
         <Header />
         <Experiencia />
         <Freelancer />
-        <Tecnologias />
+        {/* <Tecnologias /> */}
+        <Tecnologias2 />
       </div>
     </BackgroundBeamsWithCollision>
   );
