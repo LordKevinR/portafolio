@@ -12,7 +12,7 @@ const Tecnologias2 = () => {
         <p className="text-gray-300 text-center mt-40 text-4xl font-bold">
           Frontend
         </p>
-        <div className="max-w-[75rem] mx-auto mt-10 lg:flex justify-center gap-10 grid grid-cols-3">
+        <div className=" mx-auto mt-10 lg:flex justify-center gap-10 grid grid-cols-3">
           <div className="flex flex-col items-center">
             <p className="text-gray-300 font-bold text-xl">React</p>
             <img className="mt-1" src={"img/react.webp"} width={50} />
@@ -27,7 +27,7 @@ const Tecnologias2 = () => {
 
           <div className="flex flex-col items-center">
             <p className="text-gray-300 font-bold text-xl">Angular</p>
-            <img className="-mt-1" src={"img/Angular.png"} width={60} />
+            <img className="-mt-1" src={"img/Angular.png"} width={65} />
           </div>
 
           <div className="flex flex-col items-center">
@@ -46,7 +46,12 @@ const Tecnologias2 = () => {
 
           <div className="flex flex-col items-center">
             <p className="text-gray-300 font-bold text-xl">TailwindCSS</p>
-            <img className="mt-1" src={"img/tailwind.png"} width={80} />
+            <img className="mt-1" src={"img/tailwind.png"} width={75} />
+          </div>
+
+          <div className="flex flex-col items-center">
+            <p className="text-gray-300 font-bold text-xl">Bootstrap</p>
+            <img className="" src={"img/bootstrap.png"} width={70} />
           </div>
 
           <div className="flex flex-col items-center">
@@ -74,7 +79,7 @@ const Tecnologias2 = () => {
         <p className="text-gray-300 text-center mt-40 text-4xl font-bold">
           Backend
         </p>
-        <div className="max-w-[75rem] mx-auto mt-10 lg:flex justify-center gap-10  grid grid-cols-3">
+        <div className="mx-auto mt-10 lg:flex justify-center gap-10  grid grid-cols-3">
           <div className="flex flex-col items-center">
             <p className="text-gray-300 font-bold text-xl">C#</p>
             <img className="mt-1" src={"img/csharp.png"} width={45} />
@@ -126,7 +131,7 @@ const Tecnologias2 = () => {
             <p className="text-gray-300 font-bold text-xl whitespace-nowrap">
               Visual Studio
             </p>
-            <img className="mt-1 rounded-lg" src={"img/vs.png"} width={50} />
+            <img className="mt-2 rounded-lg" src={"img/vs.png"} width={50} />
           </div>
         </div>
       </Fade>
