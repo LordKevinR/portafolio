@@ -5,7 +5,7 @@ export function Card({ image1, image2, title, desc, width, height }) {
     <div className={`w-full ${width}`}>
       <div
         className={cn(
-          `${height} group w-full cursor-pointer overflow-hidden relative card rounded-md shadow-xl mx-auto flex flex-col justify-end p-4 border border-transparent dark:border-neutral-800`,
+          `${height} group w-full cursor-pointer overflow-hidden relative card rounded-[2rem] shadow-xl mx-auto flex flex-col justify-end p-4 border border-transparent dark:border-neutral-800`,
           "hover:after:content-[''] hover:after:absolute hover:after:inset-0 hover:after:bg-black hover:after:opacity-50",
           "transition-all duration-500"
         )}
